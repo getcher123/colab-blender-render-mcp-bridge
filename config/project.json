@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/getcher123/colab-blender-render-mcp-bridge",
+  "language": "ru",
+  "existing_windows_project": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp",
+  "historical_remote_device_id": "d4468825-14f3-43bd-98a6-6c8b8888ebf7",
+  "working_notebook_url": "https://colab.research.google.com/drive/1vioZDVMV7P_eCazGrLWQ0C17mIFJJpqS",
+  "historical_notebook_url": "https://colab.research.google.com/drive/10fsfs2oTmAX8pugr-hK0mo1nodmDB7qK",
+  "last_live_checkpoint_utc": "2026-11-09T09:32:50Z",
+  "last_observed_runtime_kind": "CPU; Python 3.13.18; no Blender installed",
+  "live_connection_currently_asserted": false,
+  "upstream": {
+    "repository": "https://github.com/googlecolab/colab-mcp.git",
+    "revision": "b9ab3899e0f1fa493390b1fd6d54aa2e464ecdf1",
+    "package_version": "1.0.1",
+    "python_version": "3.13.18",
+    "uv_version": "0.13.7",
+    "patch": "patches/colab-mcp-windows.patch",
+    "bind_host": "127.0.0.1",
+    "port": "assigned per process; never reuse a historical port",
+    "max_websocket_message_bytes": 16777216
+  },
+  "blender": {
+    "version": "4.5.15",
+    "archive": "blender-4.5.15-linux-x64.tar.xz",
+    "archive_sha256": "0d2b8bb2efe97e6c8eb57de6b7322f8800e1984e3125b60decca5f6771e4773e",
+    "work_dir": "/content/colab_blender",
+    "expected_gpu": "A100",
+    "backend": "CUDA",
+    "width": 1600,
+    "height": 1000,
+    "samples": 96
+  },
+  "entrypoints": {
+    "agent_instructions": "AGENTS.md",
+    "state": "state.md",
+    "overview": "README.md",
+    "routes": "docs/agent-routes.md",
+    "clean_notebook": "notebooks/Blender_Colab_GPU_Test.ipynb",
+    "working_notebook_snapshot": "notebooks/Blender_Colab_A100_Working_2026-11-09.ipynb",
+    "original_a100_archive": "artifacts/a100/Blender_Colab_A100_Render_2026-11-08.zip"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "a100_collect_20261108_v1_smoke",
+  "started_at": "2026-11-08T16:54:49.606+00:00",
+  "ok": true,
+  "tool": "run_code_cell",
+  "timeout_seconds": 600.0,
+  "submitted_at": "2026-11-08T16:54:49.562+00:00",
+  "result": {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"outputs\":[{\"output_type\":\"stream\",\"name\":\"stdout\",\"text\":[\"{\\n\",\"  \\\"marker\\\": \\\"COLAB_MCP_SMOKE_OK\\\",\\n\",\"  \\\"time_utc\\\": \\\"2026-11-08T16:54:49.805932+00:00\\\",\\n\",\"  \\\"gpu\\\": \\\"name, memory.total [MiB], driver_version\\\\nNVIDIA A100-SXM4-80GB, 81920 MiB, 580.82.07\\\",\\n\",\"  \\\"blender_present\\\": true\\n\",\"}\\n\"]}]}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{\n",
+            "  \"marker\": \"COLAB_MCP_SMOKE_OK\",\n",
+            "  \"time_utc\": \"2026-11-08T16:54:49.805932+00:00\",\n",
+            "  \"gpu\": \"name, memory.total [MiB], driver_version\\nNVIDIA A100-SXM4-80GB, 81920 MiB, 580.82.07\",\n",
+            "  \"blender_present\": true\n",
+            "}\n"
+          ]
+        }
+      ]
+    },
+    "isError": false
+  },
+  "mcp_is_error": false,
+  "finished_at": "2026-11-08T16:54:50.089+00:00",
+  "duration_seconds": 0.483
+}

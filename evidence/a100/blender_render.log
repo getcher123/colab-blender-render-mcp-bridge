@@ -1,0 +1,133 @@
+GPU_SELECTED {"requested_user_gpu": "A100", "expected_gpu": "A100", "target_a100_met": true, "devices": [{"name": "NVIDIA A100-SXM4-80GB", "type": "CUDA", "id": "CUDA_NVIDIA A100-SXM4-80GB_0000:00:05", "enabled": true}]}
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:33:47)
+Fra:1 Mem:41.11M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seamless studio floor
+Fra:1 Mem:41.11M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine brass perimeter inlay
+Fra:1 Mem:41.11M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower teal head
+Fra:1 Mem:41.17M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower glass seal
+Fra:1 Mem:41.18M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper teal head
+Fra:1 Mem:42.30M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top brass cover
+Fra:1 Mem:43.57M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Continuous six-turn copper heat exchanger
+Fra:1 Mem:43.89M (Peak 50.75M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Internal stainless core
+Fra:1 Mem:45.15M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Internal support 1
+Fra:1 Mem:47.41M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Support spoke 1
+Fra:1 Mem:47.28M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Support spoke 2.002
+Fra:1 Mem:47.30M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Support spoke 3
+Fra:1 Mem:48.26M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Support spoke 3.001
+Fra:1 Mem:48.43M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Support spoke 3.002
+Fra:1 Mem:48.48M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External tension rod
+Fra:1 Mem:48.48M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hexagonal tension nut
+Fra:1 Mem:48.49M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External tension rod.001
+Fra:1 Mem:48.51M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hexagonal tension nut.003
+Fra:1 Mem:48.62M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hexagonal tension nut.004
+Fra:1 Mem:48.65M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External tension rod.003
+Fra:1 Mem:48.78M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hexagonal tension nut.006
+Fra:1 Mem:49.16M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hexagonal tension nut.007
+Fra:1 Mem:49.09M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt
+Fra:1 Mem:49.13M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.001
+Fra:1 Mem:49.15M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.002
+Fra:1 Mem:49.17M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.004
+Fra:1 Mem:49.26M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.005
+Fra:1 Mem:49.21M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.006
+Fra:1 Mem:49.22M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Polished upper outlet pipe
+Fra:1 Mem:49.31M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.009
+Fra:1 Mem:49.41M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.010
+Fra:1 Mem:49.48M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top flange hex bolt.011
+Fra:1 Mem:49.59M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump mounting plate
+Fra:1 Mem:49.59M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump support
+Fra:1 Mem:49.59M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump support.001
+Fra:1 Mem:49.64M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump motor housing
+Fra:1 Mem:49.64M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Motor cooling rib
+Fra:1 Mem:49.63M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Motor cooling rib.001
+Fra:1 Mem:49.96M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Motor cooling rib.002
+Fra:1 Mem:50.09M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Motor cooling rib.004
+Fra:1 Mem:50.21M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Motor cooling rib.006
+Fra:1 Mem:50.50M (Peak 50.75M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump front flange
+Fra:1 Mem:50.95M (Peak 50.95M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump stainless hub
+Fra:1 Mem:52.92M (Peak 52.92M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower return pipe
+Fra:1 Mem:53.33M (Peak 53.36M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump flange bolt
+Fra:1 Mem:53.53M (Peak 53.53M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump flange bolt.001
+Fra:1 Mem:53.54M (Peak 53.54M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump flange bolt.004
+Fra:1 Mem:53.62M (Peak 53.62M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump flange bolt.005
+Fra:1 Mem:53.89M (Peak 53.89M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump flange bolt.006
+Fra:1 Mem:53.88M (Peak 53.89M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump flange bolt.007
+Fra:1 Mem:53.97M (Peak 53.97M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper outlet union
+Fra:1 Mem:54.23M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pump inlet union
+Fra:1 Mem:54.11M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Valve body
+Fra:1 Mem:54.11M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Valve spindle
+Fra:1 Mem:54.08M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Valve hub
+Fra:1 Mem:54.10M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Valve spoke.001
+Fra:1 Mem:54.20M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Valve spoke.002
+Fra:1 Mem:54.17M (Peak 54.23M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressure gauge stem
+Fra:1 Mem:54.49M (Peak 54.50M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge housing
+Fra:1 Mem:54.67M (Peak 54.67M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge dial
+Fra:1 Mem:54.83M (Peak 54.83M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge polished bezel
+Fra:1 Mem:55.25M (Peak 55.25M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GPU plaque title
+Fra:1 Mem:56.70M (Peak 56.70M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick
+Fra:1 Mem:56.63M (Peak 56.70M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.002
+Fra:1 Mem:56.69M (Peak 56.70M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.001
+Fra:1 Mem:57.07M (Peak 57.07M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.003
+Fra:1 Mem:56.90M (Peak 57.07M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.004
+Fra:1 Mem:57.06M (Peak 57.07M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.005
+Fra:1 Mem:57.09M (Peak 57.09M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.007
+Fra:1 Mem:57.27M (Peak 57.27M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.008
+Fra:1 Mem:57.39M (Peak 57.39M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.009
+Fra:1 Mem:57.50M (Peak 57.50M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge tick.010
+Fra:1 Mem:57.48M (Peak 57.50M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge needle pivot
+Fra:1 Mem:57.23M (Peak 57.50M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gauge protective glass
+Fra:1 Mem:57.29M (Peak 57.50M) | Time:00:00.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Render test nameplate
+Fra:1 Mem:57.61M (Peak 57.61M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plaque subtitle
+Fra:1 Mem:59.32M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Warm softbox / key
+Fra:1 Mem:59.32M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | White strip / rim
+Fra:1 Mem:59.32M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Warm edge accent
+Fra:1 Mem:59.32M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:41.97M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:41.97M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:41.97M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:41.97M (Peak 59.32M) | Time:00:00.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:44.02M (Peak 68.25M) | Time:08:03.32 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:44.00M (Peak 68.25M) | Time:08:03.32 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:44.01M (Peak 68.25M) | Time:08:03.32 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:55.07M (Peak 68.25M) | Time:08:03.38 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Packing BVH triangles and strands
+Fra:1 Mem:55.81M (Peak 68.25M) | Time:08:03.38 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Packing BVH nodes
+Fra:1 Mem:55.97M (Peak 68.25M) | Time:08:03.39 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:55.97M (Peak 68.25M) | Time:08:03.40 | Mem:7.94M, Peak:7.94M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:7.94M, Peak:7.94M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.71M, Peak:14.71M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.71M, Peak:14.71M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:76.27M (Peak 76.27M) | Time:08:03.41 | Mem:1202.81M, Peak:1202.81M | Scene, ViewLayer | Sample 0/96
+Fra:1 Mem:192.24M (Peak 192.24M) | Time:08:03.45 | Remaining:00:03.66 | Mem:1318.78M, Peak:1318.78M | Scene, ViewLayer | Sample 1/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.09 | Remaining:00:01.36 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 32/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.33 | Remaining:00:00.91 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 48/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.56 | Remaining:00:00.57 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 64/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.78 | Remaining:00:00.27 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 80/96
+Fra:1 Mem:241.08M (Peak 314.32M) | Time:08:09.90 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 96/96
+Fra:1 Mem:241.08M (Peak 314.32M) | Time:08:09.90 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Finished
+Saved: '/content/colab_blender/output/test_render.png'
+Time: 08:10.44 (Saving: 00:00.38)
+
+Info: Saved as "test_scene.blend"
+GPU_RENDER_SUCCESS {"status": "success_verified_a100", "requested_user_gpu": "A100", "actual_gpu_names": ["NVIDIA A100-SXM4-80GB"], "target_a100_met": true, "backend": "CUDA", "render_seconds": 490.448, "resolution": [1600, 1000], "samples": 96, "image": "/content/colab_blender/output/test_render.png", "blend": "/content/colab_blender/output/test_scene.blend", "report": "/content/colab_blender/output/render_report.json", "gpu_utilization_peak_percent": 99.0, "blender_gpu_memory_peak_mib": 3168.0}
+
+Blender quit

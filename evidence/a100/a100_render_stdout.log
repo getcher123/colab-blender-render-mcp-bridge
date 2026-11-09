@@ -1,0 +1,60 @@
+{
+  "requested_user_gpu": "A100",
+  "expected_gpu": "A100",
+  "detected_gpus": [
+    {
+      "index": "0",
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memory_mib": "81920",
+      "driver_version": "580.82.07"
+    }
+  ]
+}
+Начат рендер. Устройство этого запуска: A100
+Лог: /content/colab_blender/output/blender_render.log
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:42.06M (Peak 68.25M) | Time:08:03.32 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:42.08M (Peak 68.25M) | Time:08:03.32 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:44.02M (Peak 68.25M) | Time:08:03.32 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:44.00M (Peak 68.25M) | Time:08:03.32 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:44.01M (Peak 68.25M) | Time:08:03.32 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:55.07M (Peak 68.25M) | Time:08:03.38 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Packing BVH triangles and strands
+Fra:1 Mem:55.81M (Peak 68.25M) | Time:08:03.38 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Packing BVH nodes
+Fra:1 Mem:55.97M (Peak 68.25M) | Time:08:03.39 | Mem:1.95M, Peak:1.95M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:55.97M (Peak 68.25M) | Time:08:03.40 | Mem:7.94M, Peak:7.94M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:7.94M, Peak:7.94M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.71M, Peak:14.71M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.71M, Peak:14.71M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:62.75M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.72M, Peak:14.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:62.76M (Peak 68.25M) | Time:08:03.40 | Mem:14.80M, Peak:14.80M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:76.27M (Peak 76.27M) | Time:08:03.41 | Mem:1202.81M, Peak:1202.81M | Scene, ViewLayer | Sample 0/96
+Fra:1 Mem:192.24M (Peak 192.24M) | Time:08:03.45 | Remaining:00:03.66 | Mem:1318.78M, Peak:1318.78M | Scene, ViewLayer | Sample 1/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.09 | Remaining:00:01.36 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 32/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.33 | Remaining:00:00.91 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 48/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.56 | Remaining:00:00.57 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 64/96
+Fra:1 Mem:192.25M (Peak 192.25M) | Time:08:04.78 | Remaining:00:00.27 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 80/96
+Fra:1 Mem:241.08M (Peak 314.32M) | Time:08:09.90 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Sample 96/96
+Fra:1 Mem:241.08M (Peak 314.32M) | Time:08:09.90 | Mem:1318.79M, Peak:1318.79M | Scene, ViewLayer | Finished
+Saved: '/content/colab_blender/output/test_render.png'
+Time: 08:10.44 (Saving: 00:00.38)
+
+Info: Saved as "test_scene.blend"
+GPU_RENDER_SUCCESS {"status": "success_verified_a100", "requested_user_gpu": "A100", "actual_gpu_names": ["NVIDIA A100-SXM4-80GB"], "target_a100_met": true, "backend": "CUDA", "render_seconds": 490.448, "resolution": [1600, 1000], "samples": 96, "image": "/content/colab_blender/output/test_render.png", "blend": "/content/colab_blender/output/test_scene.blend", "report": "/content/colab_blender/output/render_report.json", "gpu_utilization_peak_percent": 99.0, "blender_gpu_memory_peak_mib": 3168.0}
+
+Blender quit
+Готово: success_verified_a100

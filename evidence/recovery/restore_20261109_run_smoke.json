@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "restore_20261109_run_smoke",
+  "started_at": "2026-11-09T09:28:15.062+00:00",
+  "ok": true,
+  "tool": "run_code_cell",
+  "timeout_seconds": 120.0,
+  "submitted_at": "2026-11-09T09:28:14.928+00:00",
+  "result": {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"outputs\":[{\"output_type\":\"stream\",\"name\":\"stdout\",\"text\":[\"{\\n\",\"  \\\"marker\\\": \\\"COLAB_MCP_RECOVERY_OK\\\",\\n\",\"  \\\"time_utc\\\": \\\"2026-11-09T09:28:38.813598+00:00\\\",\\n\",\"  \\\"python\\\": \\\"3.13.18\\\",\\n\",\"  \\\"gpu_probe\\\": null,\\n\",\"  \\\"blender_present\\\": false,\\n\",\"  \\\"render_executed\\\": false\\n\",\"}\\n\"]}]}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{\n",
+            "  \"marker\": \"COLAB_MCP_RECOVERY_OK\",\n",
+            "  \"time_utc\": \"2026-11-09T09:28:38.813598+00:00\",\n",
+            "  \"python\": \"3.13.18\",\n",
+            "  \"gpu_probe\": null,\n",
+            "  \"blender_present\": false,\n",
+            "  \"render_executed\": false\n",
+            "}\n"
+          ]
+        }
+      ]
+    },
+    "isError": false
+  },
+  "mcp_is_error": false,
+  "finished_at": "2026-11-09T09:28:38.938+00:00",
+  "duration_seconds": 23.876
+}

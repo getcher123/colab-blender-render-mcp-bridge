@@ -1,0 +1,140 @@
+{
+  "status": "success_verified_gpu_user_a100_target_unmet",
+  "started_at_utc": "2026-11-08T15:50:50.658604+00:00",
+  "blender_version": "4.5.15 LTS",
+  "blender_binary": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "requested_user_gpu": "A100",
+  "expected_gpu": "L4",
+  "target_a100_met": false,
+  "requested_backend": "CUDA",
+  "artifacts": {
+    "image": "/content/colab_blender/output/test_render.png",
+    "blend": "/content/colab_blender/output/test_scene.blend",
+    "report": "/content/colab_blender/output/render_report.json"
+  },
+  "nvidia_hardware_before": [
+    {
+      "index": "0",
+      "name": "NVIDIA L4",
+      "uuid": "GPU-38e390b7-04ce-545c-b6b1-0c25faf47b45",
+      "driver_version": "580.82.07",
+      "memory.total": "23034",
+      "memory.used": "0"
+    }
+  ],
+  "backend": "CUDA",
+  "device_detection_attempts": [
+    {
+      "backend": "CUDA",
+      "devices": [
+        {
+          "name": "NVIDIA L4",
+          "type": "CUDA",
+          "id": "CUDA_NVIDIA L4_0000:00:03",
+          "enabled": true
+        },
+        {
+          "name": "Intel Xeon CPU @ 2.20GHz",
+          "type": "CPU",
+          "id": "CPU",
+          "enabled": false
+        },
+        {
+          "name": "NVIDIA L4",
+          "type": "OPTIX",
+          "id": "CUDA_NVIDIA L4_0000:00:03_OptiX",
+          "enabled": false
+        }
+      ]
+    }
+  ],
+  "actual_gpu_names": [
+    "NVIDIA L4"
+  ],
+  "cycles_devices": [
+    {
+      "name": "NVIDIA L4",
+      "type": "CUDA",
+      "id": "CUDA_NVIDIA L4_0000:00:03",
+      "enabled": true
+    },
+    {
+      "name": "Intel Xeon CPU @ 2.20GHz",
+      "type": "CPU",
+      "id": "CPU",
+      "enabled": false
+    },
+    {
+      "name": "NVIDIA L4",
+      "type": "OPTIX",
+      "id": "CUDA_NVIDIA L4_0000:00:03_OptiX",
+      "enabled": false
+    }
+  ],
+  "render_settings": {
+    "engine": "CYCLES",
+    "device": "GPU",
+    "width": 1600,
+    "height": 1000,
+    "samples": 96,
+    "adaptive_threshold": 0.014999999664723873,
+    "denoiser": "OPENIMAGEDENOISE",
+    "denoising_device": "CPU (postprocessing; path tracing remains GPU-only)",
+    "view_transform": "AgX",
+    "objects": 113
+  },
+  "render_seconds": 7.961,
+  "gpu_evidence": {
+    "blender_pid": 5652,
+    "namespace_pids": [
+      "5652"
+    ],
+    "gpu_sample_count": 32,
+    "blender_process_sample_count": 30,
+    "max_expected_gpu_utilization_percent": 99.0,
+    "max_blender_gpu_memory_mib": 1440.0,
+    "matching_blender_gpu_process_observed": true,
+    "positive_expected_gpu_utilization_observed": true,
+    "first_matching_process": {
+      "pid": "5652",
+      "process_name": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+      "gpu_uuid": "GPU-38e390b7-04ce-545c-b6b1-0c25faf47b45",
+      "used_memory": "186"
+    },
+    "last_matching_process": {
+      "pid": "5652",
+      "process_name": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+      "gpu_uuid": "GPU-38e390b7-04ce-545c-b6b1-0c25faf47b45",
+      "used_memory": "688"
+    },
+    "gpu_csv": "/content/colab_blender/output/gpu_samples.csv",
+    "process_csv": "/content/colab_blender/output/blender_gpu_processes.csv"
+  },
+  "nvidia_hardware_after": [
+    {
+      "index": "0",
+      "name": "NVIDIA L4",
+      "uuid": "GPU-38e390b7-04ce-545c-b6b1-0c25faf47b45",
+      "driver_version": "580.82.07",
+      "memory.total": "23034",
+      "memory.used": "3"
+    }
+  ],
+  "verification": {
+    "cycles_scene_device_is_gpu": true,
+    "only_expected_gpu_cycles_devices_enabled": true,
+    "cpu_cycles_device_disabled": true,
+    "matching_blender_gpu_process_observed": true,
+    "positive_expected_gpu_utilization_observed": true,
+    "render_operator_finished": true,
+    "image_present_and_fresh": true,
+    "blend_present": true
+  },
+  "completed_at_utc": "2026-11-08T15:51:00.644423+00:00",
+  "total_seconds": 9.984,
+  "artifact_bytes": {
+    "image": 1660155,
+    "blend": 4873491
+  }
+}

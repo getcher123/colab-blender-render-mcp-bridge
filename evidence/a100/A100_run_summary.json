@@ -1,0 +1,57 @@
+{
+  "status": "success_verified_a100",
+  "requested_user_gpu": "A100",
+  "actual_gpu_names": [
+    "NVIDIA A100-SXM4-80GB"
+  ],
+  "target_a100_met": true,
+  "backend": "CUDA",
+  "render_seconds": 490.448,
+  "resolution": [
+    1600,
+    1000
+  ],
+  "samples": 96,
+  "image": "/content/colab_blender/output/test_render.png",
+  "blend": "/content/colab_blender/output/test_scene.blend",
+  "report": "/content/colab_blender/output/render_report.json",
+  "gpu_utilization_peak_percent": 99,
+  "blender_gpu_memory_peak_mib": 3168,
+  "evidence": {
+    "mcp_request_id": "a100_pipeline_20261108_v1_run_3",
+    "mcp_started_at": "2026-11-08T16:44:39.038+00:00",
+    "mcp_finished_at": "2026-11-08T16:52:52.970+00:00",
+    "mcp_duration_seconds": 493.933,
+    "source_file": "a100_render_mcp_evidence.json",
+    "source_marker": "GPU_RENDER_SUCCESS",
+    "note": "This is the success summary extracted verbatim from the actual MCP execution stdout, not the complete render_report.json from Colab."
+  },
+  "png_sha256": "cb891c24fd5c545b24fb2e1fb8a3adba3bed818ce43ea2fd5ed827bb205e1efc",
+  "export_state": {
+    "png_copied": true,
+    "blend_copied": true,
+    "full_render_report_copied": true,
+    "gpu_csv_copied": true,
+    "colab_archive_observed_at_utc": "2026-11-08T17:07:00Z",
+    "colab_archive": "/content/colab_blender/Blender_Colab_A100_Render_2026-11-08.zip",
+    "download_completed": true,
+    "executed_notebook_copied": true,
+    "recovered_at_utc": "2026-11-09T09:14:38.500234+00:00",
+    "recovery_method": "Decoded the existing export-cell output from the notebook downloaded through Colab File > Download IPYNB; no render or cell re-execution.",
+    "archive_local": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\artifacts\\recovery_2026-11-09\\Blender_Colab_A100_Render_2026-11-08.zip",
+    "archive_sha256": "1ff57a0dfd72144ee4459644f33f14954042c7ad410ee425ed7415e4b1bfe7cf",
+    "archive_bytes": 2792148,
+    "source_notebook_local": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\Blender_Colab_GPU_Test_executed_A100.ipynb",
+    "source_notebook_sha256": "787456f2b006575984627cfec353ec436ff7bf2ff01702a8a78336deb33fd25a",
+    "zip_crc_verified": true,
+    "manifest_files_verified": 12,
+    "verification_summary": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\artifacts\\recovery_2026-11-09\\verification_summary.json",
+    "artifacts": {
+      "image": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\output\\test_render.png",
+      "blend": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\output\\test_scene.blend",
+      "report": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\output\\render_report.json",
+      "gpu_csv": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\output\\gpu_samples.csv",
+      "process_csv": "C:\\Users\\Ivan\\Projects\\colab-blender-mcp\\output\\blender_gpu_processes.csv"
+    }
+  }
+}

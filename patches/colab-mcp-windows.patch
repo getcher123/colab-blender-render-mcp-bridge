@@ -1,0 +1,36 @@
+diff --git a/src/colab_mcp/session.py b/src/colab_mcp/session.py
+index d79e158..43a2fae 100644
+--- a/src/colab_mcp/session.py
++++ b/src/colab_mcp/session.py
+@@ -68,7 +68,7 @@ class ColabProxyClient:
+         with contextlib.suppress(asyncio.TimeoutError):
+             # wait for the connection to be live and for the proxy client to fully initialize
+             connection_tasks = asyncio.gather(
+-                self.wss.connection_live.wait(), self._start_task
++                self.wss.connection_live.wait(), asyncio.shield(self._start_task)
+             )
+             await asyncio.wait_for(
+                 connection_tasks,
+diff --git a/src/colab_mcp/websocket_server.py b/src/colab_mcp/websocket_server.py
+index e71d081..a5373c5 100644
+--- a/src/colab_mcp/websocket_server.py
++++ b/src/colab_mcp/websocket_server.py
+@@ -39,7 +39,7 @@ class ColabWebSocketServer:
+     from a Google Colab session (colab.google.com).
+     """
+ 
+-    def __init__(self, host="localhost"):
++    def __init__(self, host="127.0.0.1"):
+         self.host = host
+         self.port = 0
+         self.connection_lock = asyncio.Lock()
+@@ -148,6 +148,9 @@ class ColabWebSocketServer:
+             subprotocols=[Subprotocol("mcp")],
+             origins=self.allowed_origins,
+             process_request=self._validate_authorization,
++            # Notebook outputs can contain PNGs larger than the 1 MiB default.
++            # Keep a finite bound while supporting the verified render payload.
++            max_size=16 * 1024 * 1024,
+         )
+         self.port = self._server.sockets[0].getsockname()[1]
+         logging.info(f"Starting WebSocket server on ws://{self.host}:{self.port}")

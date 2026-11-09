@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "read_order": ["AGENTS.md", "state.md", "README.md", "docs/agent-routes.md"],
+  "live_owner_policy": "One lead agent owns notebook, runtime and mutating queue operations; reviewers use local copies.",
+  "routes": [
+    {
+      "id": "accept-handoff",
+      "entry_condition": "Receive project context without a live task",
+      "documents": ["docs/handoff.md", "docs/provenance.md"],
+      "live_access_required": false,
+      "next": ["audit-artifacts", "connect-existing", "setup-new"]
+    },
+    {
+      "id": "connect-existing",
+      "entry_condition": "Access to the existing MSI project is available",
+      "documents": ["docs/connect-existing.md", "docs/architecture.md"],
+      "scripts": ["mcp_call.py"],
+      "live_access_required": true,
+      "next": ["recover-connection", "render-new", "handoff"]
+    },
+    {
+      "id": "setup-new",
+      "entry_condition": "Prepare a separate Windows installation",
+      "documents": ["docs/setup-windows.md"],
+      "scripts": ["scripts/windows/setup.ps1", "scripts/windows/start-bridge.ps1"],
+      "live_access_required": true,
+      "next": ["recover-connection", "handoff"]
+    },
+    {
+      "id": "recover-connection",
+      "entry_condition": "Bridge/frontend unavailable or binding is wrong",
+      "documents": ["docs/recover-connection.md", "docs/troubleshooting.md"],
+      "scripts": ["mcp_call.py", "mcp_bridge.py", "scripts/colab/recovery_smoke.py"],
+      "live_access_required": true,
+      "next": ["connect-existing", "setup-new", "handoff"]
+    },
+    {
+      "id": "render-new",
+      "entry_condition": "User requests a new render; correct notebook and actual A100 verified",
+      "documents": ["docs/render-and-export.md", "notebooks/README.md"],
+      "scripts": ["scripts/blender/install_blender.py", "scripts/blender/render_test.py"],
+      "notebooks": ["notebooks/Blender_Colab_GPU_Test.ipynb"],
+      "live_access_required": true,
+      "next": ["audit-artifacts", "recover-connection"]
+    },
+    {
+      "id": "audit-artifacts",
+      "entry_condition": "Verify existing downloaded artifacts without a render",
+      "documents": ["docs/provenance.md"],
+      "scripts": ["scripts/verify_bundle.py"],
+      "live_access_required": false,
+      "next": ["handoff"]
+    },
+    {
+      "id": "handoff",
+      "entry_condition": "Task complete or lead agent changes",
+      "documents": ["docs/handoff.md", "state.md"],
+      "live_access_required": false,
+      "next": ["accept-handoff"]
+    }
+  ]
+}

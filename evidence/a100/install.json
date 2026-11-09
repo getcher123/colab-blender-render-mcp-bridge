@@ -1,0 +1,10 @@
+{
+  "blender_version": "4.5.15",
+  "binary": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+  "archive": "blender-4.5.15-linux-x64.tar.xz",
+  "source_url": "https://download.blender.org/release/Blender4.5/blender-4.5.15-linux-x64.tar.xz",
+  "sha256": "0d2b8bb2efe97e6c8eb57de6b7322f8800e1984e3125b60decca5f6771e4773e",
+  "gpu": "name, memory.total [MiB], driver_version\nNVIDIA A100-SXM4-80GB, 81920 MiB, 580.82.07\n",
+  "requested_user_gpu": "A100",
+  "expected_gpu": "A100"
+}

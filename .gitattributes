@@ -1,0 +1,15 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ipynb -text
+*.patch text eol=lf
+*.ps1 text eol=crlf
+*.csv -text
+*.log -text
+*.zip binary
+*.png binary
+*.blend binary
+# Preserve forensic source bytes, including historical CRLF JSON.
+/evidence/** -text
+/docs/history/** -text

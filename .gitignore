@@ -1,0 +1,29 @@
+# Local installations and private runtime state
+/vendor/
+/.venv/
+/bridge_state/
+/logs/
+/.env
+/.env.*
+!/.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# New render/recovery products; curated evidence and artifacts stay tracked
+/output/
+/runs/
+/local_artifacts/
+/artifacts/recovery_*/
+/scripts/recovery/a100_artifacts/
+/scripts/recovery/Blender_Colab_A100_Render_2026-11-08.zip
+/scripts/recovery/verification_summary.json
+/scripts/recovery/history/*_args.json
+
+# Editors and temporary transfers
+.DS_Store
+Thumbs.db
+*.tmp
+*.partial
+/.idea/
+/.vscode/

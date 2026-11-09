@@ -1,0 +1,140 @@
+{
+  "status": "success_verified_a100",
+  "started_at_utc": "2026-11-08T16:44:39.859007+00:00",
+  "blender_version": "4.5.15 LTS",
+  "blender_binary": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "requested_user_gpu": "A100",
+  "expected_gpu": "A100",
+  "target_a100_met": true,
+  "requested_backend": "CUDA",
+  "artifacts": {
+    "image": "/content/colab_blender/output/test_render.png",
+    "blend": "/content/colab_blender/output/test_scene.blend",
+    "report": "/content/colab_blender/output/render_report.json"
+  },
+  "nvidia_hardware_before": [
+    {
+      "index": "0",
+      "name": "NVIDIA A100-SXM4-80GB",
+      "uuid": "GPU-219be299-689b-0ee9-fc6d-b1b895f04694",
+      "driver_version": "580.82.07",
+      "memory.total": "81920",
+      "memory.used": "0"
+    }
+  ],
+  "backend": "CUDA",
+  "device_detection_attempts": [
+    {
+      "backend": "CUDA",
+      "devices": [
+        {
+          "name": "NVIDIA A100-SXM4-80GB",
+          "type": "CUDA",
+          "id": "CUDA_NVIDIA A100-SXM4-80GB_0000:00:05",
+          "enabled": true
+        },
+        {
+          "name": "Intel Xeon CPU @ 2.20GHz",
+          "type": "CPU",
+          "id": "CPU",
+          "enabled": false
+        },
+        {
+          "name": "NVIDIA A100-SXM4-80GB",
+          "type": "OPTIX",
+          "id": "CUDA_NVIDIA A100-SXM4-80GB_0000:00:05_OptiX",
+          "enabled": false
+        }
+      ]
+    }
+  ],
+  "actual_gpu_names": [
+    "NVIDIA A100-SXM4-80GB"
+  ],
+  "cycles_devices": [
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "type": "CUDA",
+      "id": "CUDA_NVIDIA A100-SXM4-80GB_0000:00:05",
+      "enabled": true
+    },
+    {
+      "name": "Intel Xeon CPU @ 2.20GHz",
+      "type": "CPU",
+      "id": "CPU",
+      "enabled": false
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "type": "OPTIX",
+      "id": "CUDA_NVIDIA A100-SXM4-80GB_0000:00:05_OptiX",
+      "enabled": false
+    }
+  ],
+  "render_settings": {
+    "engine": "CYCLES",
+    "device": "GPU",
+    "width": 1600,
+    "height": 1000,
+    "samples": 96,
+    "adaptive_threshold": 0.014999999664723873,
+    "denoiser": "OPENIMAGEDENOISE",
+    "denoising_device": "CPU (postprocessing; path tracing remains GPU-only)",
+    "view_transform": "AgX",
+    "objects": 113
+  },
+  "render_seconds": 490.448,
+  "gpu_evidence": {
+    "blender_pid": 4804,
+    "namespace_pids": [
+      "4804"
+    ],
+    "gpu_sample_count": 1960,
+    "blender_process_sample_count": 1955,
+    "max_expected_gpu_utilization_percent": 99.0,
+    "max_blender_gpu_memory_mib": 3168.0,
+    "matching_blender_gpu_process_observed": true,
+    "positive_expected_gpu_utilization_observed": true,
+    "first_matching_process": {
+      "pid": "4804",
+      "process_name": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+      "gpu_uuid": "GPU-219be299-689b-0ee9-fc6d-b1b895f04694",
+      "used_memory": "12"
+    },
+    "last_matching_process": {
+      "pid": "4804",
+      "process_name": "/content/colab_blender/blender-4.5.15-linux-x64/blender",
+      "gpu_uuid": "GPU-219be299-689b-0ee9-fc6d-b1b895f04694",
+      "used_memory": "3168"
+    },
+    "gpu_csv": "/content/colab_blender/output/gpu_samples.csv",
+    "process_csv": "/content/colab_blender/output/blender_gpu_processes.csv"
+  },
+  "nvidia_hardware_after": [
+    {
+      "index": "0",
+      "name": "NVIDIA A100-SXM4-80GB",
+      "uuid": "GPU-219be299-689b-0ee9-fc6d-b1b895f04694",
+      "driver_version": "580.82.07",
+      "memory.total": "81920",
+      "memory.used": "6"
+    }
+  ],
+  "verification": {
+    "cycles_scene_device_is_gpu": true,
+    "only_expected_gpu_cycles_devices_enabled": true,
+    "cpu_cycles_device_disabled": true,
+    "matching_blender_gpu_process_observed": true,
+    "positive_expected_gpu_utilization_observed": true,
+    "render_operator_finished": true,
+    "image_present_and_fresh": true,
+    "blend_present": true
+  },
+  "completed_at_utc": "2026-11-08T16:52:52.507304+00:00",
+  "total_seconds": 492.647,
+  "artifact_bytes": {
+    "image": 1662354,
+    "blend": 4873511
+  }
+}

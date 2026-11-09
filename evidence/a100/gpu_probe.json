@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-11-08T16:44:39.250023+00:00",
+  "requested_user_gpu": "A100",
+  "expected_gpu": "A100",
+  "detected_gpus": [
+    {
+      "index": "0",
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memory_mib": "81920",
+      "driver_version": "580.82.07"
+    }
+  ],
+  "target_a100_met": true
+}

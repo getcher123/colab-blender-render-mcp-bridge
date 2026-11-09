@@ -1,0 +1,43 @@
+{
+  "status": "current_working_notebook_verified",
+  "working_notebook_url": "https://colab.research.google.com/drive/1vioZDVMV7P_eCazGrLWQ0C17mIFJJpqS",
+  "working_notebook_name": "Blender_Colab_A100_Working_2026-11-09.ipynb",
+  "snapshot_request": "restore_20261109_final_snapshot",
+  "snapshot_finished_at_utc": "2026-11-09T09:32:50.152+00:00",
+  "snapshot_duration_seconds": 0.039,
+  "tools_request": "restore_20261109_tools_final",
+  "tools_finished_at_utc": "2026-11-09T09:32:50.792+00:00",
+  "tools_count": 8,
+  "tool_names": [
+    "add_code_cell",
+    "add_text_cell",
+    "delete_cell",
+    "get_cells",
+    "move_cell",
+    "open_colab_browser_connection",
+    "run_code_cell",
+    "update_cell"
+  ],
+  "total_cells": 15,
+  "clean_source_cells": 14,
+  "source_cells_match_clean_notebook": true,
+  "clean_notebook_sha256": "b9869e21cdf4989520aa3d4541469141a8c2775e7af27d0d8f6afa7bf7242923",
+  "intro_cell_id": "ZGa228Vinvws",
+  "smoke_cell_id": "5a8JvwHlopZw",
+  "smoke_marker": "COLAB_MCP_RECOVERY_OK",
+  "smoke_gpu_probe": null,
+  "smoke_blender_present": false,
+  "smoke_render_executed": false,
+  "drive_save": "Explicit File > Save and Changes saved observed by lead browser agent before final snapshot; UI evidence is distinct from MCP reads.",
+  "actual_ui_export": {
+    "filename": "Blender_Colab_A100_Working_2026-11-09.ipynb",
+    "download_source": "C:\\Users\\Ivan\\Downloads\\Blender_Colab_A100_Working_2026_11_09.ipynb",
+    "source_modified_at_utc": "2026-11-09T09:33:39.831065+00:00",
+    "bytes": 75534,
+    "sha256": "6892ee035aa1f34a9675c5ded25a762023d4f565645258c69443b74b6c7f9bf1",
+    "cell_count": 15,
+    "all_14_sources_match_clean_notebook": true,
+    "smoke_output_matches_mcp_execution": true,
+    "source": "Actual File > Download IPYNB from the saved working notebook, not reconstructed from MCP replies."
+  }
+}

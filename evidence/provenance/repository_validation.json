@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "status": "handoff_validation_passed",
+  "checked_at_utc": "2026-11-09T10:21:49.020055+00:00",
+  "scope": "Repository transfer, documents, routes, offline scripts, notebook glue, artifact integrity and pinned patch; no live MSI/Colab mutation",
+  "source_archive": {
+    "filename": "Blender_Colab_A100_Full_2026-11-09.zip",
+    "bytes": 14288213,
+    "sha256": "ba3389693a98b4b6158f45a63d7e32e2ac74c12c6ccca86a5f971e866eecf021",
+    "files_accounted_for": 54,
+    "byte_identical_standalone_copies": 41,
+    "historical_guides_adapted": 7,
+    "derived_clean_template": 1
+  },
+  "structure": {
+    "tracked_deliverable_files": 78,
+    "markdown_documents": 23,
+    "local_markdown_links_checked": 264,
+    "broken_local_links": 0,
+    "broken_anchors": 0,
+    "case_collisions": 0,
+    "agent_routes": 7,
+    "invalid_route_targets": 0,
+    "read_order": [
+      "AGENTS.md",
+      "state.md",
+      "README.md",
+      "docs/agent-routes.md"
+    ]
+  },
+  "checks": {
+    "python_ast_files": 8,
+    "python_ast": "passed",
+    "upstream_revision": "b9ab3899e0f1fa493390b1fd6d54aa2e464ecdf1",
+    "pinned_upstream_blob_identity": "passed",
+    "patch_forward_check_apply_reverse_check_and_reverse": "passed; original bytes recovered after reverse",
+    "patch_scope": "exactly IPv4 loopback, shield startup task, max_size 16 MiB; Origin and token authentication retained",
+    "windows_scripts": "independent static review passed; PowerShell/Windows execution unavailable",
+    "queue_cli_offline_cases": [
+      "missing bridge status exit 1",
+      "missing/stale submission exit 2",
+      "stopped readable status exit 0",
+      "bootstrap wrapper ok true with nested false exit 0",
+      "wrapper ok false exit 1",
+      "wait timeout exit 3",
+      "detach only enqueues with exit 0",
+      "duplicate request ID refused with exit 2"
+    ],
+    "clean_notebook_sha256": "5f84df846deeb76cb4025ffc3cd99551ac7831030133ebd7e40970cabf3429b0",
+    "clean_notebook_cells": 14,
+    "clean_notebook_has_outputs": false,
+    "changed_source_cell_indices": [
+      2,
+      8,
+      11,
+      12
+    ],
+    "embedded_installer_and_renderer_match_files": true,
+    "working_notebook_sha256_unchanged": "6892ee035aa1f34a9675c5ded25a762023d4f565645258c69443b74b6c7f9bf1",
+    "new_export_mock_cases": {
+      "fresh_output_selected_over_stale_work_dir_output": "passed",
+      "all_manifest_hashes_and_sizes": "passed",
+      "missing_fresh_blend_rejected_before_zip_or_download": "passed",
+      "nonempty_output_rejected_before_subprocess": "passed"
+    },
+    "bundle_verifier_cases": {
+      "historical_a100_zip_list_manifest": "exit 0; 12 files verified",
+      "new_mock_zip_object_manifest": "exit 0; 12 files verified in this fixture",
+      "wrong_expected_archive_sha256": "exit 1"
+    },
+    "source_to_repository_hashes": "54 source files accounted for; mapped hashes and source/archive/preview consistency checked",
+    "publication_secret_scan": "No credential values detected in the source text, curated evidence or A100 ZIP text members; raw private bridge state, vendor and environment excluded"
+  },
+  "independent_review": {
+    "context_and_history": "completed",
+    "scripts_and_setup": "completed",
+    "routes_patch_notebook_export_and_artifact_verifier": "completed",
+    "blocking_findings_remaining": 0
+  },
+  "limitations": {
+    "windows_setup_executed": false,
+    "powershell_runtime_syntax_or_execution_tested": false,
+    "new_colab_runtime_allocated": false,
+    "new_gpu_render_executed": false,
+    "existing_bridge_restarted": false,
+    "current_live_connection_reverified_during_migration": false,
+    "last_live_checkpoint_utc": "2026-11-09T09:32:50Z",
+    "artifact_verification_is_not_a_new_render": true
+  },
+  "publication_note": "This report validates the assembled repository before publication. Git commit identity is provided by GitHub, not embedded recursively in this file."
+}

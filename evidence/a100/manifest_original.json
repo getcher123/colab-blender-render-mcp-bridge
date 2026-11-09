@@ -1,0 +1,62 @@
+[
+  {
+    "path": "render_test.py",
+    "bytes": 32465,
+    "sha256": "87d8cbd26f9ef59f4b9ae030e33fc0015745196190cce69e9042492182c11412"
+  },
+  {
+    "path": "install_blender.py",
+    "bytes": 4683,
+    "sha256": "b8239bff80e03d8d4999f204c741ecdf6ec8c4f365e42d8fed7c68219bf5251c"
+  },
+  {
+    "path": "install.json",
+    "bytes": 489,
+    "sha256": "01842ebcd9735004f2a9183f0920d9e6e0b43fd56195fcbee394e772573c16f8"
+  },
+  {
+    "path": "gpu_probe.json",
+    "bytes": 305,
+    "sha256": "cffe19127933f65c26a992f5a95a32476bba483a4205af87e770fce60b4deb23"
+  },
+  {
+    "path": "mcp_smoke.json",
+    "bytes": 211,
+    "sha256": "ebd928f94461388959565ec265d6e1a24f52aa06124519fc3edc7abad47934fb"
+  },
+  {
+    "path": "install_output.log",
+    "bytes": 1931,
+    "sha256": "0199052eb5be052dcf6f9a8235d6bc1e572ffc0693c874d4de7a3671498f6abb"
+  },
+  {
+    "path": "output/test_scene.blend",
+    "bytes": 4873511,
+    "sha256": "70d2d5afd6e1ca5765b0350dadd30c204f2e782b8181133b582b144c876c5f31"
+  },
+  {
+    "path": "output/test_render.png",
+    "bytes": 1662354,
+    "sha256": "cb891c24fd5c545b24fb2e1fb8a3adba3bed818ce43ea2fd5ed827bb205e1efc"
+  },
+  {
+    "path": "output/render_report.json",
+    "bytes": 4088,
+    "sha256": "0088dc34d676841e277a533316f22ae0dbe5412c11c2b8a4a4d0fa520b7d62bb"
+  },
+  {
+    "path": "output/gpu_samples.csv",
+    "bytes": 209756,
+    "sha256": "42a579f5786dbadada62d50e93a4882a601beb4d19e0572e729abec857ae5e6d"
+  },
+  {
+    "path": "output/blender_gpu_processes.csv",
+    "bytes": 213121,
+    "sha256": "6ab14e0e676b660fd8c67d7331d815961be5abd42517cadea80f89fdb29a3d43"
+  },
+  {
+    "path": "output/blender_render.log",
+    "bytes": 17119,
+    "sha256": "0ebaf42ac190b793bb029bf4aef63be5b674967d381444745d85df239a1fc5c2"
+  }
+]

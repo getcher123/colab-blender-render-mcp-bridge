@@ -1,0 +1,6 @@
+{
+  "marker": "COLAB_MCP_SMOKE_OK",
+  "time_utc": "2026-11-08T16:54:49.805932+00:00",
+  "gpu": "name, memory.total [MiB], driver_version\nNVIDIA A100-SXM4-80GB, 81920 MiB, 580.82.07",
+  "blender_present": true
+}
